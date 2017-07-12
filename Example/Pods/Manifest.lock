@@ -1,0 +1,16 @@
+PODS:
+  - magista (0.1.0)
+
+DEPENDENCIES:
+  - magista (from `../`)
+
+EXTERNAL SOURCES:
+  magista:
+    :path: ../
+
+SPEC CHECKSUMS:
+  magista: e76c093ecd41a34701995d596d95ae0979017cf0
+
+PODFILE CHECKSUM: dc696d36b684db56dc50d670976bebf789cd916f
+
+COCOAPODS: 1.2.1

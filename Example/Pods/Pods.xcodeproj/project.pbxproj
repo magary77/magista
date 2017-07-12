@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FAA2506DF23F2FB0C938170BF403FA9 /* MGLogicEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 30699D20AA0200DB7817A03C5B0F5D8F /* MGLogicEngine.m */; };
+		1C63125F77A54D135AF4D375E262A7C2 /* Pods-magista_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1276DB816B80D6BB911EF50C6CE39029 /* Pods-magista_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282CE6704D64BACA4DBB6FE04114EBA1 /* MGAsyncActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC10A574E6D8C8CE40A50FDB9D1246B /* MGAsyncActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		318EC4DF35AD907B724F54189C5F1E6B /* MGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F2432F7BE74A319CD5CF2B9C2DDD7E99 /* MGModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FD0AA431EFD976796BDCC73C6F1C90 /* MGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02568F111E6ADBEDC9FA9718D7EE8B /* MGModel.m */; };
+		4B17B0D0AC4141BFE9017E1906C29E56 /* MGBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F008F790E581FB8B047FF5A10A12BD /* MGBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662516535602A7D29BD9DDA9052F1194 /* MGController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1251EA37825CDF12AA85F1ECDE5647F /* MGController.m */; };
+		670D7321D2702940316E637D3A03FDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C020D73253808849479BD6278301D6C /* Pods-magista_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18222C7DF1691EB168CB7C4628088BF5 /* Pods-magista_Tests-dummy.m */; };
+		A50F9B7034A2AF3749941735935EB921 /* MGRequestActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500E5FFBB07D432CFDB1FCA7DB5A651 /* MGRequestActionBlock.m */; };
+		A74F622CBE76E040E6D039616F9D2E3F /* MGAsyncActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5218372E6E2E4FEE16F84B3C5BBE6E6D /* MGAsyncActionBlock.m */; };
+		AC3A2D8A677720DA1DDE4B9F77AA0BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AFA4BFCFB36021C8AFA7B5D24DACE399 /* MGController.h in Headers */ = {isa = PBXBuildFile; fileRef = 203075D9EB8DD517D4173576377179F8 /* MGController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B48C0C1E1AA0C03B4A52A9BED49C3D81 /* MGRequestActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 57783FFA967096889350A877A9778BB1 /* MGRequestActionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75F50A6EDD284DB44756BCBD04FE15C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C776FC1E7C7B74A80FB1BAD36883ABA /* ReplaceMe.m */; };
+		BDCC14B5414375CB121CDAD6BC2FA858 /* MGLogicEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FF20F1285E0E2E9E1C6C49823BE92A /* MGLogicEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA8C2B331BF324D462A0A06C3DB832E /* magista-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B086054537E99B3C2A9E2585D934A2EC /* magista-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13CA6A50F650E3BF5B4E0C6AA73C51B /* Magista.h in Headers */ = {isa = PBXBuildFile; fileRef = 1976206FE8BB00EBA8C16C5BE2BBB47B /* Magista.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68D5A82D8EE26E337026984EFEF27C8 /* magista-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1126C00B46269BAD78EDA32C8859AB7 /* magista-dummy.m */; };
+		E8650E2BC8BC31F0D863CEDB2E74F20F /* MGBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE7F33DACF4DF2F7938BDF4E042CD8C /* MGBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D305F23CB02B5CCCF3224C94B7E1A8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958BAB58EE49F10C6D46E42A62C10FEF;
+			remoteInfo = magista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE7F33DACF4DF2F7938BDF4E042CD8C /* MGBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGBlock.m; sourceTree = "<group>"; };
+		10CAA15CD989C3F9F38F997CCAECF0A9 /* Pods-magista_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magista_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1276DB816B80D6BB911EF50C6CE39029 /* Pods-magista_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-magista_Tests-umbrella.h"; sourceTree = "<group>"; };
+		16F008F790E581FB8B047FF5A10A12BD /* MGBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGBlock.h; sourceTree = "<group>"; };
+		18222C7DF1691EB168CB7C4628088BF5 /* Pods-magista_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-magista_Tests-dummy.m"; sourceTree = "<group>"; };
+		1976206FE8BB00EBA8C16C5BE2BBB47B /* Magista.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Magista.h; sourceTree = "<group>"; };
+		1B6C926681E1A5A348C031B5415A32B0 /* Pods-magista_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magista_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		203075D9EB8DD517D4173576377179F8 /* MGController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGController.h; sourceTree = "<group>"; };
+		304C1F64371466055176DBD976E75A66 /* Pods-magista_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-magista_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30699D20AA0200DB7817A03C5B0F5D8F /* MGLogicEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGLogicEngine.m; sourceTree = "<group>"; };
+		30D03C6C8ED2F929C995BA405C0A8FC7 /* magista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = magista.framework; path = magista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3830CB7C27987FB479E350E03E7F33 /* Pods_magista_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_magista_Tests.framework; path = "Pods-magista_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4500E5FFBB07D432CFDB1FCA7DB5A651 /* MGRequestActionBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGRequestActionBlock.m; sourceTree = "<group>"; };
+		51FF20F1285E0E2E9E1C6C49823BE92A /* MGLogicEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGLogicEngine.h; sourceTree = "<group>"; };
+		5218372E6E2E4FEE16F84B3C5BBE6E6D /* MGAsyncActionBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGAsyncActionBlock.m; sourceTree = "<group>"; };
+		57783FFA967096889350A877A9778BB1 /* MGRequestActionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGRequestActionBlock.h; sourceTree = "<group>"; };
+		5F1C8C8BFFD5AA4B720F3C4EBC5D396E /* Pods-magista_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-magista_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A02568F111E6ADBEDC9FA9718D7EE8B /* MGModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGModel.m; sourceTree = "<group>"; };
+		6BC10A574E6D8C8CE40A50FDB9D1246B /* MGAsyncActionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGAsyncActionBlock.h; sourceTree = "<group>"; };
+		7C776FC1E7C7B74A80FB1BAD36883ABA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		8F9AFDA2BE7FA25BA0E619E62994DF62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97DC27725536F2B8CA7D18D03DAAB1D1 /* magista-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "magista-prefix.pch"; sourceTree = "<group>"; };
+		A1126C00B46269BAD78EDA32C8859AB7 /* magista-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "magista-dummy.m"; sourceTree = "<group>"; };
+		B086054537E99B3C2A9E2585D934A2EC /* magista-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "magista-umbrella.h"; sourceTree = "<group>"; };
+		B10EBE986E87F852AAF91CE4562CF29C /* Pods-magista_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-magista_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4D6326D794451C156029FB56230DC70 /* Pods-magista_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-magista_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B552B265B3F10897EF706E23786AF9C2 /* magista.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = magista.xcconfig; sourceTree = "<group>"; };
+		D1251EA37825CDF12AA85F1ECDE5647F /* MGController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGController.m; sourceTree = "<group>"; };
+		E3062E838965E82C4D9298C252F4DE57 /* magista.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = magista.modulemap; sourceTree = "<group>"; };
+		E56C34BA795A2F97B9E0BBA807F5C55E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2432F7BE74A319CD5CF2B9C2DDD7E99 /* MGModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGModel.h; sourceTree = "<group>"; };
+		F4880EB1D5A78EB8B4B6CC7151948D1B /* Pods-magista_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-magista_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21E8E6B4778D7AAF6DDE6926352F180B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670D7321D2702940316E637D3A03FDB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3314A88034241DF03A9530D82C601D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3A2D8A677720DA1DDE4B9F77AA0BDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EF22F75EADFB08F98CD9D900BDA042 /* magista */ = {
+			isa = PBXGroup;
+			children = (
+				A170F19538FFDA86679AD0E7892A5F86 /* magista */,
+				AC762CA54ADF67B9AD81C8C57B1A97DF /* Support Files */,
+			);
+			name = magista;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5EA4D82D699B2F87FAAB5419745F9B4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8414239390A73A1C5C0551CC64D2E75D /* Pods-magista_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8D822B5B20E0C49B6878826AFFFBBC9D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DC19AF55156C77133AE8616069A429F4 /* Products */,
+				5EA4D82D699B2F87FAAB5419745F9B4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8142DBB5430723EEDA2A49497250AEB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1976206FE8BB00EBA8C16C5BE2BBB47B /* Magista.h */,
+				6BC10A574E6D8C8CE40A50FDB9D1246B /* MGAsyncActionBlock.h */,
+				5218372E6E2E4FEE16F84B3C5BBE6E6D /* MGAsyncActionBlock.m */,
+				16F008F790E581FB8B047FF5A10A12BD /* MGBlock.h */,
+				0BE7F33DACF4DF2F7938BDF4E042CD8C /* MGBlock.m */,
+				203075D9EB8DD517D4173576377179F8 /* MGController.h */,
+				D1251EA37825CDF12AA85F1ECDE5647F /* MGController.m */,
+				51FF20F1285E0E2E9E1C6C49823BE92A /* MGLogicEngine.h */,
+				30699D20AA0200DB7817A03C5B0F5D8F /* MGLogicEngine.m */,
+				F2432F7BE74A319CD5CF2B9C2DDD7E99 /* MGModel.h */,
+				6A02568F111E6ADBEDC9FA9718D7EE8B /* MGModel.m */,
+				57783FFA967096889350A877A9778BB1 /* MGRequestActionBlock.h */,
+				4500E5FFBB07D432CFDB1FCA7DB5A651 /* MGRequestActionBlock.m */,
+				7C776FC1E7C7B74A80FB1BAD36883ABA /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8414239390A73A1C5C0551CC64D2E75D /* Pods-magista_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E56C34BA795A2F97B9E0BBA807F5C55E /* Info.plist */,
+				F4880EB1D5A78EB8B4B6CC7151948D1B /* Pods-magista_Tests.modulemap */,
+				B10EBE986E87F852AAF91CE4562CF29C /* Pods-magista_Tests-acknowledgements.markdown */,
+				304C1F64371466055176DBD976E75A66 /* Pods-magista_Tests-acknowledgements.plist */,
+				18222C7DF1691EB168CB7C4628088BF5 /* Pods-magista_Tests-dummy.m */,
+				1B6C926681E1A5A348C031B5415A32B0 /* Pods-magista_Tests-frameworks.sh */,
+				5F1C8C8BFFD5AA4B720F3C4EBC5D396E /* Pods-magista_Tests-resources.sh */,
+				1276DB816B80D6BB911EF50C6CE39029 /* Pods-magista_Tests-umbrella.h */,
+				B4D6326D794451C156029FB56230DC70 /* Pods-magista_Tests.debug.xcconfig */,
+				10CAA15CD989C3F9F38F997CCAECF0A9 /* Pods-magista_Tests.release.xcconfig */,
+			);
+			name = "Pods-magista_Tests";
+			path = "Target Support Files/Pods-magista_Tests";
+			sourceTree = "<group>";
+		};
+		8D822B5B20E0C49B6878826AFFFBBC9D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38EF22F75EADFB08F98CD9D900BDA042 /* magista */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A170F19538FFDA86679AD0E7892A5F86 /* magista */ = {
+			isa = PBXGroup;
+			children = (
+				8142DBB5430723EEDA2A49497250AEB5 /* Classes */,
+			);
+			name = magista;
+			path = magista;
+			sourceTree = "<group>";
+		};
+		AC762CA54ADF67B9AD81C8C57B1A97DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9AFDA2BE7FA25BA0E619E62994DF62 /* Info.plist */,
+				E3062E838965E82C4D9298C252F4DE57 /* magista.modulemap */,
+				B552B265B3F10897EF706E23786AF9C2 /* magista.xcconfig */,
+				A1126C00B46269BAD78EDA32C8859AB7 /* magista-dummy.m */,
+				97DC27725536F2B8CA7D18D03DAAB1D1 /* magista-prefix.pch */,
+				B086054537E99B3C2A9E2585D934A2EC /* magista-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/magista";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC19AF55156C77133AE8616069A429F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D03C6C8ED2F929C995BA405C0A8FC7 /* magista.framework */,
+				3C3830CB7C27987FB479E350E03E7F33 /* Pods_magista_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		340F4E0F48C3EEB384579E8DDC658C4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63125F77A54D135AF4D375E262A7C2 /* Pods-magista_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F85E9EF5B383EAA951A63F410A7AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA8C2B331BF324D462A0A06C3DB832E /* magista-umbrella.h in Headers */,
+				E13CA6A50F650E3BF5B4E0C6AA73C51B /* Magista.h in Headers */,
+				282CE6704D64BACA4DBB6FE04114EBA1 /* MGAsyncActionBlock.h in Headers */,
+				4B17B0D0AC4141BFE9017E1906C29E56 /* MGBlock.h in Headers */,
+				AFA4BFCFB36021C8AFA7B5D24DACE399 /* MGController.h in Headers */,
+				BDCC14B5414375CB121CDAD6BC2FA858 /* MGLogicEngine.h in Headers */,
+				318EC4DF35AD907B724F54189C5F1E6B /* MGModel.h in Headers */,
+				B48C0C1E1AA0C03B4A52A9BED49C3D81 /* MGRequestActionBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F432E3A7302C17F019CA17F6D45E0D9 /* Pods-magista_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99A2941615A1BDF04F79F29C592B682 /* Build configuration list for PBXNativeTarget "Pods-magista_Tests" */;
+			buildPhases = (
+				9FF19D9F3E920629B2A190E69718F675 /* Sources */,
+				3A3314A88034241DF03A9530D82C601D /* Frameworks */,
+				340F4E0F48C3EEB384579E8DDC658C4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE67334EC706FAA4715BF44997B2F1E /* PBXTargetDependency */,
+			);
+			name = "Pods-magista_Tests";
+			productName = "Pods-magista_Tests";
+			productReference = 3C3830CB7C27987FB479E350E03E7F33 /* Pods_magista_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		958BAB58EE49F10C6D46E42A62C10FEF /* magista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E5DD8AF26169F2A90368C0558C5C91 /* Build configuration list for PBXNativeTarget "magista" */;
+			buildPhases = (
+				745BFF1D6C8081D41F3A9E4B7C86A430 /* Sources */,
+				21E8E6B4778D7AAF6DDE6926352F180B /* Frameworks */,
+				82F85E9EF5B383EAA951A63F410A7AC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magista;
+			productName = magista;
+			productReference = 30D03C6C8ED2F929C995BA405C0A8FC7 /* magista.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC19AF55156C77133AE8616069A429F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958BAB58EE49F10C6D46E42A62C10FEF /* magista */,
+				3F432E3A7302C17F019CA17F6D45E0D9 /* Pods-magista_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745BFF1D6C8081D41F3A9E4B7C86A430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68D5A82D8EE26E337026984EFEF27C8 /* magista-dummy.m in Sources */,
+				A74F622CBE76E040E6D039616F9D2E3F /* MGAsyncActionBlock.m in Sources */,
+				E8650E2BC8BC31F0D863CEDB2E74F20F /* MGBlock.m in Sources */,
+				662516535602A7D29BD9DDA9052F1194 /* MGController.m in Sources */,
+				0FAA2506DF23F2FB0C938170BF403FA9 /* MGLogicEngine.m in Sources */,
+				45FD0AA431EFD976796BDCC73C6F1C90 /* MGModel.m in Sources */,
+				A50F9B7034A2AF3749941735935EB921 /* MGRequestActionBlock.m in Sources */,
+				B75F50A6EDD284DB44756BCBD04FE15C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF19D9F3E920629B2A190E69718F675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C020D73253808849479BD6278301D6C /* Pods-magista_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE67334EC706FAA4715BF44997B2F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = magista;
+			target = 958BAB58EE49F10C6D46E42A62C10FEF /* magista */;
+			targetProxy = D305F23CB02B5CCCF3224C94B7E1A8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092DC856917DA1448F447C16610741F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CAA15CD989C3F9F38F997CCAECF0A9 /* Pods-magista_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-magista_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magista_Tests/Pods-magista_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_magista_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09611D6D231D51B70F9128036029111F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B552B265B3F10897EF706E23786AF9C2 /* magista.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/magista/magista-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/magista/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/magista/magista.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = magista;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E70BF4375E2C48959659508CC7CD923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D6326D794451C156029FB56230DC70 /* Pods-magista_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-magista_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-magista_Tests/Pods-magista_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_magista_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C588266DB823E88E67172C505EB9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B552B265B3F10897EF706E23786AF9C2 /* magista.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/magista/magista-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/magista/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/magista/magista.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = magista;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E5DD8AF26169F2A90368C0558C5C91 /* Build configuration list for PBXNativeTarget "magista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C588266DB823E88E67172C505EB9CC /* Debug */,
+				09611D6D231D51B70F9128036029111F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99A2941615A1BDF04F79F29C592B682 /* Build configuration list for PBXNativeTarget "Pods-magista_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E70BF4375E2C48959659508CC7CD923 /* Debug */,
+				092DC856917DA1448F447C16610741F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
