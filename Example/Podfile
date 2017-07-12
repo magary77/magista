@@ -1,0 +1,6 @@
+use_frameworks!
+target 'magista_Tests' do
+  pod 'magista', :path => '../'
+  
+  
+end
